@@ -26,7 +26,7 @@ function Leaderboard() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          'https://script.google.com/macros/s/AKfycbzOzGpMuNg5O4gtai0MjMcaAwAaqnVvBNOpjCxcMvLC_hpVwc8sBFk7jbrsYgolu10H/exec'
+          'https://script.google.com/macros/s/AKfycbxtNpuh5Fwj6tnFgdgV1pOxM115T1dmPRgCQ5qf8UJTncY3pnr4i5nxD51THVgRHjvevQ/exec'
         );
         setData(response.data);
         setLoading(false);
