@@ -1,4 +1,4 @@
-# Project Name
+# Gen ai leaderboard
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and is integrated with Google Sheets to provide real-time updates without the need for frequent code pushes. For more information on syncing Sheets with the React app, refer to the `leaderboard` and `navbar` folders, specifically the `apps-script.txt` file for setup instructions.
 
