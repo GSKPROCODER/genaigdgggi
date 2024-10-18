@@ -26,7 +26,7 @@ function Leaderboard() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          'ENTER_YOUR_WEB_APP_URL'
+          'https://script.google.com/macros/s/AKfycbzOzGpMuNg5O4gtai0MjMcaAwAaqnVvBNOpjCxcMvLC_hpVwc8sBFk7jbrsYgolu10H/exec'
         );
         setData(response.data);
         setLoading(false);
