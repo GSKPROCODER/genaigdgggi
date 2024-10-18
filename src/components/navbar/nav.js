@@ -19,7 +19,7 @@ const Nav = () => {
     const fetchData = async () => {
       setLoading(true);  
       try {
-        const response = await axios.get("https://script.google.com/macros/s/AKfycbzGgp31v-9jGLUM2LepfjoEtMIjdBTisVC5g7wvgu-4cc2aqrSQrZkzuFyCVFRNlvtZ/exec"); // Use your Apps Script Web App URL here
+        const response = await axios.get("https://script.google.com/macros/s/AKfycbxAyGACPyKbMDv5NGEaI7MIUGWBs2LVFEYno2JQ3-QcY_OUw3o9YV-T1HGpPUYHIiFf/exec"); // Use your Apps Script Web App URL here
         setData(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
